@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biggie's Collection</title>
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    color: #17202a;
+  }
+  .hero {
+    background: #111827;
+    color: white;
+    text-align: center;
+    padding: 55px 20px 45px;
+  }
+  .hero h1 { margin: 0 0 10px; font-size: 38px; }
+  .hero p { margin: 0; font-size: 18px; }
+  .container {
+    max-width: 760px;
+    margin: -25px auto 40px;
+    padding: 0 18px;
+  }
+  .card {
+    background: white;
+    border-radius: 18px;
+    padding: 28px;
+    margin-bottom: 18px;
+    box-shadow: 0 8px 25px rgba(0,0,0,.08);
+  }
+  h2 { margin-top: 0; }
+  .loan {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 18px 0;
+    border-bottom: 1px solid #e5e7eb;
+    font-size: 18px;
+  }
+  .loan:last-child { border-bottom: 0; }
+  .amount { font-weight: bold; }
+  .fee { font-weight: bold; }
+  .contact {
+    text-align: center;
+  }
+  .button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 14px 24px;
+    background: #16a34a;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    color: #6b7280;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+
+<section class="hero">
+  <h1>Biggie's Collection</h1>
+  <p>Loan Services • Chuka • Open 24/7</p>
+</section>
+
+<main class="container">
+  <section class="card">
+    <h2>Our Loan Options</h2>
+    <div class="loan">
+      <span class="amount">KSh 12,000</span>
+      <span class="fee">KSh 350</span>
+    </div>
+    <div class="loan">
+      <span class="amount">KSh 20,000</span>
+      <span class="fee">KSh 500</span>
+    </div>
+    <p style="color:#6b7280; font-size:14px;">
+      Please confirm all loan terms, eligibility requirements, fees, and repayment conditions before accepting a loan.
+    </p>
+  </section>
+
+  <section class="card contact">
+    <h2>Contact Us</h2>
+    <p>📍 Chuka</p>
+    <p>🕐 Available 24/7</p>
+    <p>📞 0725 124 961</p>
+    <a class="button" href="tel:+254725124961">Call Us</a>
+  </section>
+</main>
+
+<footer>
+  © 2026 Biggie's Collection
+</footer>
+
+</body>
+</html>
